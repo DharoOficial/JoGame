@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using JoGame_Pack.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -12,6 +13,8 @@ namespace JoGame_Pack.Controllers
     [ApiController]
     public class JogoController : ControllerBase
     {
+        JogoRepositorie repo = new JogoRepositorie();
+
         // GET: api/<JogoController>
         [HttpGet]
         public IEnumerable<string> Get()

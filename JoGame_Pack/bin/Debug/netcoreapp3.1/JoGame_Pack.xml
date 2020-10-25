@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JoGame_Pack</name>
+    </assembly>
+    <members>
+        <member name="M:JoGame_Pack.Controllers.JogadorController.Get">
+            <summary>
+            Mostra Jogadore Cadastrados
+            </summary>
+            <returns>Retorna Jogadores Cadastrados </returns>
+        </member>
+        <member name="M:JoGame_Pack.Controllers.JogadorController.Get(System.Int32)">
+            <summary>
+            Mostra um unico jogador
+            </summary>
+            <param name="id">ID Do Jogador PlayerId</param>
+            <returns>Retorna um jogador de acordo com um Id</returns>
+        </member>
+        <member name="M:JoGame_Pack.Controllers.JogadorController.Post(JoGame_Pack.Domains.Jogador)">
+            <summary>
+            Cadastra um Jogaddor
+            </summary>
+            <param name="j">Objeto completo de Jogador</param>
+            <returns>Retorna o jogador cadastrado</returns>
+        </member>
+        <member name="M:JoGame_Pack.Controllers.JogadorController.Put(System.Int32,JoGame_Pack.Domains.Jogador)">
+            <summary>
+            altera o cadastro de um jogador
+            </summary>
+            <param name="id">Id Jogador</param>
+            <param name="j">Objeto completo de Jogador</param>
+            <returns>Retorna o Jogador cadastrado</returns>
+        </member>
+        <member name="M:JoGame_Pack.Controllers.JogadorController.Delete(System.Int32,JoGame_Pack.Domains.Jogador)">
+            <summary>
+            exclui o cadastro de um Jogador
+            </summary>
+            <param name="id">Id Jogador</param>
+            <param name="j">Objeto completo de Jogador</param>
+            <returns>Id de  jogador excluido</returns>
+        </member>
+    </members>
+</doc>
